@@ -175,7 +175,7 @@ label {
 .icons_container .icons {
     width: 48%;
     margin: 5px 1px;
-    background-color: #ccc;
+    background-color: #eee;
     padding-top: 10px;
     text-align: center;
     color: #512a10;
@@ -247,7 +247,7 @@ label {
     color: #512a10;
 }
 
-/***********menu***********/
+/***********galery***********/
 
 .container_galery {
     width: 90%;
@@ -271,7 +271,7 @@ label {
     font-size: 1.5 rem;
 }
 
-/***********menu***********/
+/***********reviews***********/
 
 .customer {
     background-color: #eee;
@@ -317,3 +317,143 @@ label {
     padding: 1rem 0;
     text-align: center;
 }
+
+/***********contact***********/
+
+.contact h3 {
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.card_contact {
+    width: 90%;
+    margin: 10px auto;
+    border: 0.1rem solid #512a10;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.card_contact .fa-phone, .fa-envelope, .fa-map-marked {
+    border: 0.1rem solid #512a10;
+    color: #512a10;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.card_contact h4 {
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.card_contact p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.container_map {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container_map .mapa {
+    width: 100%;
+    height: 183px;
+    margin: 0 auto;
+}
+
+.container_map .form {
+    width: 100%;
+}
+
+.container_map .form h3 {
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.container_map .form label {
+    color: #512a10;
+}
+
+.container_map .form input {
+    display: block;
+    /*width: 100%;
+    border: 1px solid #512a10;
+    margin-bottom: 3px;*/
+    margin: .7rem 0;
+    border: 0.1rem solid #512a10;
+    font-size: 0.8rem;
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+}
+
+.container_map .form .textarea {
+    height: 8rem;
+}
+
+.container_map .form .btn-button {
+    text-decoration: none;
+    padding: 12px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: transparent;
+    border: 0.1rem solid #512a10;
+    color: #512a10;
+    margin-bottom: 40px;
+}
+
+/***********Daily Posts***********/
+
+.Daily_Posts {
+    width: 100%;
+    background-color: #eee;
+}
+
+.container_daily h3 {
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.card {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+.card .date {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 0.7rem;
+}
+.card .date .di {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.card .date .di:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card .date i {
+    display: block;
+    padding-right: 5px;
+}
+
+

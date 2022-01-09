@@ -198,13 +198,14 @@ label {
     background-color: #eee;
 }
 
-.container_menu h3 {
+.container_menu  h3 {
     text-align: center;
     padding: 2rem 0 2rem 0;
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
-.card {
+.container_menu .card {
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -213,14 +214,15 @@ label {
     align-items: center;
     padding-bottom: 40px;
 }
-.card img {
+.container_menu .card img {
     display: block;
     width: 7rem;
     height: 7rem;
     margin: 30px 0;
+    border-radius: 50%;
 }
 
-.card h2 {
+.container_menu .card h2 {
     font-size: 1rem;
     font-weight: 400;
     text-transform: capitalize;
@@ -229,14 +231,14 @@ label {
     margin-bottom: 15px;
 }
 
-.card p {
+.container_menu .card p {
     font-size: 0.8rem;
     line-height: 2;
     color: #666;
     margin-bottom: 0;
     text-align: center;
 }
-.card button {
+.container_menu .card button {
     position: relative;
     text-decoration: none;
     padding: 12px 30px;
@@ -268,7 +270,8 @@ label {
 .gallery h3 {
     text-align: center;
     padding: 2rem 0 2rem 0;
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 /***********reviews***********/
@@ -283,7 +286,8 @@ label {
 .customer h3 {
     text-align: center;
     padding: 2rem 0 2rem 0;
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .customer .container_reviews {
@@ -323,6 +327,8 @@ label {
 .contact h3 {
     text-align: center;
     padding: 2rem 0 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .card_contact {
@@ -380,14 +386,18 @@ label {
 
 .container_map .form input {
     display: block;
-    /*width: 100%;
-    border: 1px solid #512a10;
-    margin-bottom: 3px;*/
     margin: .7rem 0;
     border: 0.1rem solid #512a10;
     font-size: 0.8rem;
     width: 100%;
     padding: 1.2rem 1.4rem;
+    color: #512a10;
+}
+
+.container_map .form input:focus {
+    background-color: #512a10;
+    color: #fff;
+    outline: none;
 }
 
 .container_map .form .textarea {
@@ -415,14 +425,31 @@ label {
 .container_daily h3 {
     text-align: center;
     padding: 2rem 0 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
-.card {
+.container_daily h2 {
+    text-align: center;
+    padding: 1rem 0 0.5rem 0;
+    font-size: 1rem;
+}
+
+.container_daily p {
+    padding: 0.3rem 0;
+    font-size: 0.8rem;
+    line-height: 2;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.container_daily .card {
     width: 90%;
     margin: 0 auto;
+    text-align: center;
 }
 
-.card img {
+.container_daily .card img {
     display: block;
     width: 100%;
     height: 200px;
@@ -430,7 +457,18 @@ label {
     margin: 10px 0;
 }
 
-.card .date {
+.container_daily .card .btn-button {
+    text-decoration: none;
+    padding: 12px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: transparent;
+    border: 0.1rem solid #512a10;
+    color: #512a10;
+    
+}
+
+.container_daily .card .date {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -439,19 +477,19 @@ label {
     margin-top: 30px;
     padding: 0.7rem;
 }
-.card .date .di {
+.container_daily .card .date .di {
     width: 50%;
     display: flex;
     align-items: center;
     font-size: 0.8rem;
 }
 
-.card .date .di:nth-child(2) {
+.container_daily .card .date .di:nth-child(2) {
     display: flex;
     justify-content: flex-end;
 }
 
-.card .date i {
+.container_daily .card .date i {
     display: block;
     padding-right: 5px;
 }
@@ -459,7 +497,8 @@ label {
 .container_newlatter {
     width: 100%;
     height: 200px;
-    background-image: url(/images/newsletter-bg.jpg);
+    margin-top: 30px;
+    background-image: url(../images/newsletter-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -573,8 +612,3 @@ label {
     bottom: -12px;
     border-radius: 2px;
 }
-.container-nav .fa-bars {
-    display: none;
-}
-
-

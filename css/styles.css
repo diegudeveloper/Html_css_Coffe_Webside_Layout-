@@ -443,9 +443,12 @@ label {
 }
 
 .container_daily .card {
-    width: 90%;
-    margin: 0 auto;
+    width: 80%;
+    max-width: 350px;
+    margin: 10px auto;
     text-align: center;
+    /*border: 1px solid #fff;*/
+    padding: 10px;
 }
 
 .container_daily .card img {
@@ -614,6 +617,46 @@ label {
 
 /*********quieri*********/
 
+
+@media only screen and (max-width: 600px) {
+
+    .container_menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container_menu h3 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .container_menu .card {
+        width: 50%;
+    }
+
+    
+}
+
+
+@media only screen and (min-width: 450px) {
+    .container_menu .card {
+        width: 70%;
+    }
+    .container_galery .img {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+    .customer  .customer {
+        width: 70%;margin: 0 auto;
+    }
+
+    .card_contact {
+        width: 70%;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .container {
         padding-top: 45%;
@@ -647,7 +690,7 @@ label {
     }
 
     .container_menu .card p {
-        width: 70%;
+        width: 50%;
         margin: 0 auto;
     }
 
@@ -684,7 +727,7 @@ label {
     }
 
     .customer .container_reviews .customer {
-        width: 50%;
+        width: 30%;
         margin-bottom: 20px;
     }
 
@@ -706,7 +749,7 @@ label {
     }
 
     .contact .container_contact .card_contact {
-        width: 48%;
+        width: 30%;
     }
 
     .container_map {
@@ -741,7 +784,7 @@ label {
     }
 
     .container_daily .card {
-        width: 48%;
+        width: 30%;
         margin: 20px 5px;
     }
 }
